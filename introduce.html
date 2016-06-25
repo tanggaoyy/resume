@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>多媒体</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<div id="bl-main" class="bl-main">
+				<section>
+					<div class="bl-box">
+						<h2 class="bl-icon bl-icon-about">Ps</h2>
+					</div>
+					<div class="bl-content">
+						<h2>Photoshop作品</h2>
+						<p>掌握简单的修图，平面设计技术。</p>
+						<div>
+						<img src="images/ps-example.jpg" align="center"/>
+						</div>
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<section id="bl-work-section">
+					<div class="bl-box">
+						<h2 class="bl-icon bl-icon-works">Pr</h2>
+					</div>
+					<div class="bl-content">
+						<h2>Premiere作品</h2>
+						<p>能够熟练剪辑视频</p>
+						<p>发布于Bilibili视频网站</p>
+						<ul id="bl-work-items">
+							<li data-panel="panel-1"><a href="#"><img src="images/1.jpg" /></a></li>
+							<li data-panel="panel-2"><a href="#"><img src="images/2.jpg" /></a></li>
+							<li data-panel="panel-3"><a href="#"><img src="images/3.jpg" /></a></li>
+							<li data-panel="panel-4"><a href="#"><img src="images/4.jpg" /></a></li>
+						</ul>
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<section>
+					<div class="bl-box">
+						<h2 class="bl-icon bl-icon-blog">Ae</h2>
+					</div>
+					<div class="bl-content">
+						<h2>After Effects</h2>
+							<h3>掌握简单的特效制作</h3>
+							<p>AE学习中，能够进行简单的如闪电，抠像渲染，水墨效果等特效。</p>
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<section>
+					<div class="bl-box">
+						<h2 class="bl-icon bl-icon-contact">au</h2>
+					</div>
+					<div class="bl-content">
+						<h2>Adobe Audition</h2>
+						<p>掌握音频的剪辑，降噪，回音等特效</p>
+						<div>
+					<embed style="filter: gray" src="music/example.mp3" controls="smallconsole"  width="400px" height="50px" altype="audio/mpeg" loop="false" volume="0"></embed>
+					</div>
+					<img src="images/music-example.jpg">
+					</div>
+					<span class="bl-icon bl-icon-close" ></span>
+				</section>
+				<!-- Panel items for the works -->
+				<div class="bl-panel-items" id="bl-panel-work-items">
+					<div data-panel="panel-1">
+						<div>
+							<img src="images/1.jpg" />
+							<h3>人鱼传说</h3>
+							<p>讲述人鱼与人轮回千年的爱情故事。</p>
+							<p>B站点击量超过1w，微博转发破千</p>
+							<p>已被阿里影业转发。</p>
+						</div>
+					</div>
+					<div data-panel="panel-2">
+						<div>
+							<img src="images/2.jpg" />
+							<h3>三生三世</h3>
+							<p>讲述贾宝玉与王语嫣，无情与小龙女以及张起灵三生三世的爱情故事</p>
+							<p>B站点击量超过3万,微博转发过2千</p>
+							<p>已被阿里影业转发。</p>
+							
+					</div>
+					</div>
+					<div data-panel="panel-3">
+						<div>
+							<img src="images/3.jpg" />
+							<h3>苍天有负</h3>
+							<p>讲述捕快无情与慕容白故事</p>
+					</div>
+					</div>
+					<div data-panel="panel-4">
+						<div>
+							<img src="images/4.jpg" />
+							<h3>牵丝戏</h3>
+							<p>讲述反派无情和傀儡小龙女的爱情故事</p>
+							<p>B站点击量超过6千</p>
+							<p>已被阿里影业转发。</p>
+					</div>
+					</div>
+					<nav>
+						<span class="bl-next-work">&gt; Next Project</span>
+						<span class="bl-icon bl-icon-close"></span>
+					</nav>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/boxlayout.js"></script>
+		<script>
+			$(function() {
+				Boxlayout.init();
+			});
+		</script>
+	</body>
+</html>
