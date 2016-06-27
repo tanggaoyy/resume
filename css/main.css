@@ -22,9 +22,9 @@ div,td{ word-wrap: break-word;}
 
 
 /*planetTravel*/ 
-.planetTravelBg_1{ background:url(../images/lift_bg_1.jpg) #000 fixed;no-repeat}
-.planetTravelBg_2{ background:url(../images/lift_bg_2.jpg) #000 fixed;no-repeat}
-.planetTravelBg_3{ background:url(../images/lift_bg_3.jpg) #000 fixed;no-repeat}
+.planetTravelBg_1{ background:url(../images/lift_bg_1.jpg) #000 center top fixed no-repeat;background-size: cover;}
+.planetTravelBg_2{ background:url(../images/lift_bg_2.jpg) #000 center top fixed no-repeat;background-size: cover;}
+.planetTravelBg_3{ background:url(../images/lift_bg_3.jpg) #000 center top fixed no-repeat;background-size: cover;}
 
 .planetTravelFly{  position:fixed; _position:absolute; width:1px; height:1px; z-index:0; }
 .planetTravelFlash{ position:fixed; _position:absolute; z-index:0; }
